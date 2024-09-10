@@ -7,10 +7,16 @@
   width: 90%;
   margin: 80px auto 0;
 }
+.dark #contact .grid-container {
+  color: var(--gray-light);
+}
 #contact .grid-container .contact-container h3 {
   color: var(--black-color);
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+}
+.dark #contact .grid-container .contact-container h3 {
+  color: var(--white-color);
 }
 #contact .grid-container .contact-container h3 img {
   width: 2rem;
@@ -40,6 +46,14 @@
   outline: none;
   resize: none;
   background-color: var(--blue-gray);
+}
+.dark #contact .grid-container .form-conatiner form input,
+.dark #contact .grid-container .form-conatiner form textarea {
+  background-color: #001f4a;
+}
+.dark #contact .grid-container .form-conatiner form input::placeholder,
+.dark #contact .grid-container .form-conatiner form textarea::placeholder {
+  color: var(--gray-light);
 }
 #contact .grid-container .form-conatiner form .button.dark-button {
   margin-left: 0;

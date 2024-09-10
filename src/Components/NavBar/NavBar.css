@@ -36,6 +36,17 @@
   cursor: pointer;
   z-index: 11;
 }
+#nav .dark-mode,
+#nav .light-mode {
+  position: relative;
+  cursor: pointer;
+  width: 30px;
+  z-index: 11;
+}
+#nav .light-mode.active,
+#nav .dark-mode.active {
+  display: none;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   #nav .nav-container > a {
     display: block;
@@ -50,6 +61,13 @@
   }
 }
 @media (max-width: 767px) {
+  #nav .nav-container .logo {
+    width: 120px;
+  }
+  #nav .dark-mode,
+  #nav .light-mode {
+    width: 20px;
+  }
   #nav .nav-container .menu {
     display: block;
     cursor: pointer;

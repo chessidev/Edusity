@@ -3,6 +3,8 @@ import logo from "../../assets/images/logo.png";
 import { useRef, useState } from "react";
 import { useEffect } from "react";
 import menu_icon from "../../assets/images/menu-icon.png";
+import dark_mode from "../../assets/images/dark-mode.png";
+import light_mode from "../../assets/images/light-mode.png";
 
 const NavBar = () => {
   const [show, setShow] = useState(false);
@@ -22,12 +24,41 @@ const NavBar = () => {
     window.location.href = "#contact";
   };
 
+  const dark = useRef();
+  const light = useRef();
+  const darkOn = () => {
+    document.body.classList.add("dark");
+    dark.current.classList.add("active");
+    light.current.classList.remove("active");
+  };
+  const lightOn = () => {
+    document.body.classList.remove("dark");
+    light.current.classList.add("active");
+    dark.current.classList.remove("active");
+  };
+
   return (
     <nav id="nav" className={show ? "dark-nav" : ""}>
       <div className="nav-container container">
-        <a href="./">
-          <img src={logo} alt="logo" className="logo" />
-        </a>
+        <div>
+          <a href="./">
+            <img src={logo} alt="logo" className="logo" />
+          </a>
+          <img
+            src={dark_mode}
+            alt="dark mode"
+            className="dark-mode"
+            ref={dark}
+            onClick={darkOn}
+          />
+          <img
+            src={light_mode}
+            alt="light mode"
+            className="light-mode active"
+            ref={light}
+            onClick={lightOn}
+          />
+        </div>
         <ul ref={linksList}>
           <li>
             <a href="#landing">Home</a>

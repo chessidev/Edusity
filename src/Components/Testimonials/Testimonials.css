@@ -53,6 +53,10 @@
   color: var(--gray-color);
   line-height: 1.4;
 }
+.dark #testimonials .testimonials-container .testimonial {
+  box-shadow: 0 0 10px #ffffff5f;
+  color: var(--gray-light);
+}
 #testimonials .testimonials-container .testimonial h3 {
   color: var(--blue-light);
 }

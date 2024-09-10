@@ -13,6 +13,11 @@ body {
   color: var(--white-color);
   overflow-x: hidden;
 }
+body.dark {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: 0.5s;
+}
 ul {
   list-style: none;
 }

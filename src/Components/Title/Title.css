@@ -17,3 +17,6 @@
   margin-top: 5px;
   text-transform: capitalize;
 }
+.dark .title h2 {
+  color: var(--white-color);
+}

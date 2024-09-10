@@ -7,6 +7,10 @@
   padding: 1rem 0;
   width: 90%;
 }
+.dark #footer {
+  border-top: 1px solid var(--white-color);
+  color: var(--white-color);
+}
 #footer ul {
   display: flex;
   list-style: none;
@@ -17,6 +21,9 @@
 #footer ul li a {
   color: var(--black-color);
   text-decoration: none;
+}
+.dark #footer ul li a {
+  color: var(--white-color);
 }
 @media (max-width: 767px) {
   #footer {
