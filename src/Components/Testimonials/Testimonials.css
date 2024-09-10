@@ -1,0 +1,90 @@
+@import url("../../variables.css");
+.hide-overflow {
+  overflow: hidden;
+}
+#testimonials {
+  overflow-x: visible;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#testimonials .testimonials-container {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  padding: 3%;
+}
+.ul-container {
+  overflow: hidden;
+}
+#testimonials .testimonials-container ul {
+  display: flex;
+  transition: all 0.5s ease;
+}
+#testimonials .testimonials-container ul li {
+  min-width: 50%;
+  padding: 2%;
+}
+#testimonials .testimonials-container > img {
+  border-radius: 50%;
+  background-color: var(--blue-light);
+  width: 5%;
+  padding: 1.5%;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+#testimonials .testimonials-container > img.not-active {
+  background-color: var(--gray-color);
+}
+#testimonials .testimonials-container > img.next-button {
+  transform: translate(100%, -50%);
+  right: 0;
+}
+#testimonials .testimonials-container > img.back-button {
+  transform: translate(-100%, -50%);
+  left: 0;
+}
+#testimonials .testimonials-container .testimonial {
+  box-shadow: 0 0 20px #0000000d;
+  padding: 4%;
+  border-radius: 10px;
+  color: var(--gray-color);
+  line-height: 1.4;
+}
+#testimonials .testimonials-container .testimonial h3 {
+  color: var(--blue-light);
+}
+#testimonials .testimonials-container .testimonial img {
+  width: 65px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid var(--blue-light);
+}
+#testimonials .testimonials-container .testimonial .user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  #testimonials .testimonials-container ul {
+    flex-direction: column;
+    transform: translateX(0);
+  }
+  #testimonials .testimonials-container ul li {
+    min-width: 100%;
+  }
+  #testimonials .testimonials-container > img {
+    display: none;
+  }
+  #testimonials .testimonials-container .testimonial img {
+    width: 50px;
+  }
+  #testimonials .testimonials-container .testimonial h3 {
+    font-size: 1.3rem;
+  }
+  #testimonials .testimonials-container .testimonial {
+    padding: 2%;
+  }
+}

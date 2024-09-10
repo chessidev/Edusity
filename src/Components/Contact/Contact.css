@@ -1,0 +1,62 @@
+@import url("../../variables.css");
+#contact .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4%;
+  color: var(--gray-color);
+  width: 90%;
+  margin: 80px auto 0;
+}
+#contact .grid-container .contact-container h3 {
+  color: var(--black-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+#contact .grid-container .contact-container h3 img {
+  width: 2rem;
+  vertical-align: middle;
+}
+#contact .grid-container .contact-container p {
+  max-width: 450px;
+  line-height: 1.5;
+}
+#contact .grid-container .contact-container ul li {
+  display: flex;
+  align-items: center;
+  margin: 1.2rem 0;
+  font-weight: bold;
+}
+#contact .grid-container .contact-container ul li img {
+  width: 1.5rem;
+  margin-right: 0.7rem;
+}
+#contact .grid-container .form-conatiner form input,
+#contact .grid-container .form-conatiner form textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  resize: none;
+  background-color: var(--blue-gray);
+}
+#contact .grid-container .form-conatiner form .button.dark-button {
+  margin-left: 0;
+  margin-right: 0;
+}
+#contact .grid-container .form-conatiner form span {
+  display: block;
+  margin-top: 1rem;
+}
+@media (max-width: 767px) {
+  #contact .grid-container {
+    display: block;
+  }
+  #contact .grid-container .form-conatiner form {
+    margin: 80px auto 0;
+  }
+  #contact .grid-container .contact-container ul li {
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,57 @@
+@import url("../../variables.css");
+#about {
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 40% 54%;
+  align-items: center;
+  gap: 6%;
+  color: var(--black-color);
+  width: 90%;
+}
+#about .image-container {
+  position: relative;
+}
+#about .image-container img:first-child {
+  border-radius: 10px;
+}
+#about .image-container img:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  cursor: pointer;
+}
+#about .text-container h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--blue-light);
+}
+#about .text-container h2 {
+  font-size: 2rem;
+  color: var(--black-color);
+  margin: 10px 0;
+  max-width: 400px;
+}
+#about .text-container p {
+  color: var(--gray-color);
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  #about {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  #about .text-container {
+    order: -1;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #about .text-container h2 {
+    font-size: 1.5rem;
+  }
+  #about .text-container p {
+    line-height: 1.3;
+  }
+}
