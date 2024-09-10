@@ -30,6 +30,10 @@
   align-items: center;
   gap: 40px;
 }
+#nav .nav-container .logo-container {
+  display: flex;
+  align-items: center;
+}
 #nav .nav-container .logo {
   position: relative;
   width: 180px;
@@ -40,14 +44,15 @@
 #nav .light-mode {
   position: relative;
   cursor: pointer;
-  width: 30px;
+  width: 2.5rem;
+  margin-left: 0.5rem;
   z-index: 11;
 }
 #nav .light-mode.active,
 #nav .dark-mode.active {
   display: none;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   #nav .nav-container > a {
     display: block;
     flex-basis: 100%;
@@ -66,7 +71,8 @@
   }
   #nav .dark-mode,
   #nav .light-mode {
-    width: 20px;
+    width: 2rem;
+    margin-left: 0;
   }
   #nav .nav-container .menu {
     display: block;

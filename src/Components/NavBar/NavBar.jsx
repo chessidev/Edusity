@@ -40,7 +40,7 @@ const NavBar = () => {
   return (
     <nav id="nav" className={show ? "dark-nav" : ""}>
       <div className="nav-container container">
-        <div>
+        <div className="logo-container">
           <a href="./">
             <img src={logo} alt="logo" className="logo" />
           </a>
