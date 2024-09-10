@@ -50,6 +50,7 @@
 .dark #contact .grid-container .form-conatiner form input,
 .dark #contact .grid-container .form-conatiner form textarea {
   background-color: #001f4a;
+  color: var(--gray-light);
 }
 .dark #contact .grid-container .form-conatiner form input::placeholder,
 .dark #contact .grid-container .form-conatiner form textarea::placeholder {
