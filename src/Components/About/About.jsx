@@ -1,6 +1,6 @@
 import "./About.css";
-import about_image from "../../assets/images/about.png";
-import play_icon from "../../assets/images/play-icon.png";
+import about_image from "../../assets/images/about.webp";
+import play_icon from "../../assets/images/play-icon.webp";
 
 const About = ({ setVideo }) => {
   return (

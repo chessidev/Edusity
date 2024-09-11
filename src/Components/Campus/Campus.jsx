@@ -1,11 +1,11 @@
 import Title from "../Title/Title";
 import "./Campus.css";
 import ImageCard from "./ImageCard";
-import urlOne from "../../assets/images/gallery-1.png";
-import urlTwo from "../../assets/images/gallery-2.png";
-import urlThree from "../../assets/images/gallery-3.png";
-import urlFour from "../../assets/images/gallery-4.png";
-import rightWhiteArrow from "../../assets/images/white-arrow.png";
+import urlOne from "../../assets/images/gallery-1.webp";
+import urlTwo from "../../assets/images/gallery-2.webp";
+import urlThree from "../../assets/images/gallery-3.webp";
+import urlFour from "../../assets/images/gallery-4.webp";
+import rightWhiteArrow from "../../assets/images/white-arrow.webp";
 
 const Campus = () => {
   return (

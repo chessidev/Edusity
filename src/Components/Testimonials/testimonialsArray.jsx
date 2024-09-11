@@ -1,7 +1,7 @@
-import user_1 from "../../assets/images/user-1.png";
-import user_2 from "../../assets/images/user-2.png";
-import user_3 from "../../assets/images/user-3.png";
-import user_4 from "../../assets/images/user-4.png";
+import user_1 from "../../assets/images/user-1.webp";
+import user_2 from "../../assets/images/user-2.webp";
+import user_3 from "../../assets/images/user-3.webp";
+import user_4 from "../../assets/images/user-4.webp";
 
 const testimonialsArray = [
   {

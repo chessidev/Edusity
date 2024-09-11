@@ -1,5 +1,5 @@
 import "./Landing.css";
-import darkArrow from "../../assets/images/dark-arrow.png";
+import darkArrow from "../../assets/images/dark-arrow.webp";
 
 const Landing = () => {
   return (

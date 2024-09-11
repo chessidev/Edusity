@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import Title from "../Title/Title";
 import Testimonial from "./Testimonial";
 import "./Testimonials.css";
-import next_icon from "../../assets/images/next-icon.png";
-import back_icon from "../../assets/images/back-icon.png";
+import next_icon from "../../assets/images/next-icon.webp";
+import back_icon from "../../assets/images/back-icon.webp";
 
 // may be you can fetch the data from an API
 import testimonialsArray from "./testimonialsArray";

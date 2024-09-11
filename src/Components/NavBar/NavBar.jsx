@@ -1,10 +1,10 @@
 import "./NavBar.css";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo.webp";
 import { useRef, useState } from "react";
 import { useEffect } from "react";
-import menu_icon from "../../assets/images/menu-icon.png";
-import dark_mode from "../../assets/images/dark-mode.png";
-import light_mode from "../../assets/images/light-mode.png";
+import menu_icon from "../../assets/images/menu-icon.webp";
+import dark_mode from "../../assets/images/dark-mode.webp";
+import light_mode from "../../assets/images/light-mode.webp";
 
 const NavBar = () => {
   const [show, setShow] = useState(false);

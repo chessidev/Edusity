@@ -1,19 +1,19 @@
 @media (max-width: 767px) {
   #landing {
     background: linear-gradient(#08003ab3, #08003ab3),
-      url(../../assets/images/landing/landing_768.jpg);
+      url(../../assets/images/landing/landing_768.webp);
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   #landing {
     background: linear-gradient(#08003ab3, #08003ab3),
-      url(../../assets/images/landing/landing_1024.jpg);
+      url(../../assets/images/landing/landing_1024.webp);
   }
 }
 @media (min-width: 1024px) {
   #landing {
     background: linear-gradient(#08003ab3, #08003ab3),
-      url(../../assets/images/landing/landing_1200.jpg);
+      url(../../assets/images/landing/landing_1200.webp);
   }
 }
 #landing {

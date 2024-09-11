@@ -1,11 +1,11 @@
 import Program from "./Program";
 import "./Programs.css";
-import programOneUrlOne from "../../assets/images/program-1.png";
-import programOneUrlTwo from "../../assets/images/program-icon-1.png";
-import programTwoUrlOne from "../../assets/images/program-2.png";
-import programTwoUrlTwo from "../../assets/images/program-icon-2.png";
-import programThreeUrlOne from "../../assets/images/program-3.png";
-import programThreeUrlTwo from "../../assets/images/program-icon-3.png";
+import programOneUrlOne from "../../assets/images/program-1.webp";
+import programOneUrlTwo from "../../assets/images/program-icon-1.webp";
+import programTwoUrlOne from "../../assets/images/program-2.webp";
+import programTwoUrlTwo from "../../assets/images/program-icon-2.webp";
+import programThreeUrlOne from "../../assets/images/program-3.webp";
+import programThreeUrlTwo from "../../assets/images/program-icon-3.webp";
 import Title from "../Title/Title";
 
 const Programs = () => {

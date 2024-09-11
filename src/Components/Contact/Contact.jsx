@@ -1,10 +1,10 @@
 import Title from "../Title/Title";
 import "./Contact.css";
-import msg_icon from "../../assets/images/msg-icon.png";
-import mail_icon from "../../assets/images/mail-icon.png";
-import phone_icon from "../../assets/images/phone-icon.png";
-import location_icon from "../../assets/images/location-icon.png";
-import white_arrow from "../../assets/images/white-arrow.png";
+import msg_icon from "../../assets/images/msg-icon.webp";
+import mail_icon from "../../assets/images/mail-icon.webp";
+import phone_icon from "../../assets/images/phone-icon.webp";
+import location_icon from "../../assets/images/location-icon.webp";
+import white_arrow from "../../assets/images/white-arrow.webp";
 import { useState } from "react";
 
 const Contact = () => {
